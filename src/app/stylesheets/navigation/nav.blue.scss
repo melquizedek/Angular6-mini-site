@@ -1,0 +1,33 @@
+$bgColorSideNav:  #87CEEB;
+$colorFontSideNav: #FFFF;
+
+.sidenav-container {
+    height: 100%;
+
+    .sidenav {
+        width: 200px;
+        background-color: $bgColorSideNav;
+        .headerMenu {
+            color: $colorFontSideNav;
+            background-color: $bgColorSideNav;
+        }
+        a {
+            color: $colorFontSideNav;
+        }
+    }
+    
+    .sidenavContent {
+        .toolBar {
+            color: $colorFontSideNav;
+            background-color: $bgColorSideNav;
+
+            .logo {
+                height: 60px;
+            }
+        }
+    }
+    .mat-toolbar.mat-primary {
+        position: sticky;
+        top: 0;
+    }
+}

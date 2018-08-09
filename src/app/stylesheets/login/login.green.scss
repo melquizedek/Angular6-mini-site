@@ -1,0 +1,34 @@
+$bgColor: #006f3c;
+
+.login-con {
+    margin-top: 10%;
+}
+
+.loginContainer {
+    background: $bgColor;
+
+    mat-grid-tile {
+        background: $bgColor;
+    }
+
+    .example-card {
+        margin-top: -170px;
+        position: relative;
+        min-width: 20%;
+        .button-con {
+            text-align: center;
+        }
+        mat-card-title {
+            font-weight: bold
+        }
+    }
+
+    .example-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .example-container > * {
+        width: 100%;
+    }
+}

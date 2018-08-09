@@ -1,0 +1,47 @@
+$bgColorSideNav:  #006f3c;
+$colorFontSideNav: #FFFF;
+
+.sidenav-container {
+    height: 100%;
+
+    mat-nav-list {
+        .userInfo {
+            margin: auto;
+            border: 3px solid #FFFF;
+            text-align: center;
+            border-radius: 25px;
+            border: 2px solid #FFFF;
+            padding: 20px;
+            width: 120px;
+            height: 60px;
+            color: #FFF;
+            font-size: 1.6em;
+        }
+    }
+    .sidenav {
+        width: 200px;
+        background-color: $bgColorSideNav;
+        .headerMenu {
+            color: $colorFontSideNav;
+            background-color: $bgColorSideNav;
+        }
+        a {
+            color: $colorFontSideNav;
+        }
+    }
+    
+    .sidenavContent {
+        .toolBar {
+            color: $colorFontSideNav;
+            background-color: $bgColorSideNav;
+
+            .logo {
+                height: 60px;
+            }
+        }
+    }
+    .mat-toolbar.mat-primary {
+        position: sticky;
+        top: 0;
+    }
+}
